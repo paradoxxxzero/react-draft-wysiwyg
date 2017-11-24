@@ -72,7 +72,7 @@
     "check": "npm run lint && npm run flow",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "postinstall": "npm run build:webpack"
+    "postinstall": "npm install && npm run build:webpack"
   },
   "license": "MIT"
 }
